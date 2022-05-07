@@ -71,6 +71,63 @@ a {
   pointer-events: none;
   transform: scale(0);
 }
+.label-checkbox {
+  margin: 52px;
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.label-checkbox-link {
+  color: rgba(33, 150, 243, 1);
+}
+.form-btn {
+  margin: 30px 164px 0;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-btn:hover {
+  background: #188ce8;
+}
+.modal-style {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+.modal-header {
+  margin: 40px 40px 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 448px;
+}
+.modal-style > .modal-areatext {
+  padding: 0;
+  margin: 0 auto;
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
 .modal {
   position: absolute;
   width: 528px;

@@ -73,6 +73,45 @@
       </section>
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
+          <form>
+            <div role="group" aria-labelledby="contact-details-head">
+              <p class="modal-header" id="contact-details-head">
+                Оставьте свои данные, мы вам перезвоним
+              </p>
+            </div>
+            <fieldset class="modal-style">
+              <label class="modal-label" for="name"
+                >Имя
+                <input type="text" name="user-name" id="name" />
+              </label>
+              <label class="modal-label" for="tel"
+                >Телефон
+                <input type="tel" name="phone" id="tel" />
+              </label>
+              <label class="modal-label" for="mail"
+                >Почта
+                <input type="email" name="mail" id="mail" />
+              </label>
+              <label class="modal-label" for="textarea"
+                >Комментарий
+                <textarea
+                  class="modal-areatext"
+                  placeholder="Введите текст"
+                  cols="30"
+                  rows="10"
+                  id="textarea"
+                ></textarea>
+              </label>
+            </fieldset>
+
+            <label class="label-checkbox">
+              <input type="checkbox" name="" value="" id="" />
+              Соглашаюсь с рассылкой и принимаю
+              <a class="label-checkbox-link" href="">Условия договора</a>
+            </label>
+
+            <button class="form-btn" type="submit">Отправить</button>
+          </form>
           <button class="modal-btn" type="button" data-modal-close>
             <img
               class="btnposition"
