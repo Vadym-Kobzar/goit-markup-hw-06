@@ -52,7 +52,7 @@ a {
   margin: 0;
   padding: 0;
 }
-
+/*/////////////////BACDROP///////////*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -71,14 +71,18 @@ a {
   pointer-events: none;
   transform: scale(0);
 }
+.checkbox-relative {
+  margin-right: 8px;
+}
 .label-checkbox {
-  margin: 52px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
 
   font-size: 14px;
   line-height: 1.71;
-
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .label-checkbox-link {
@@ -86,7 +90,8 @@ a {
   text-decoration: underline;
 }
 .form-btn {
-  margin: 30px 164px 0;
+  display: block;
+  margin: auto;
   padding: 0;
   width: 200px;
   height: 50px;
@@ -99,6 +104,19 @@ a {
 }
 .form-btn:hover {
   background: #188ce8;
+}
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 448px;
+
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.01em;
+
+  color: #757575;
 }
 .modal-label:focus-within {
   border: 1px solid var(--accentColour);
@@ -129,8 +147,7 @@ a {
 
 .checkbox-vector {
   position: absolute;
-  right: 87.5%;
-  bottom: 22.2%;
+  right: 86.6%;
 }
 .modal-title {
   margin: 40px 40px 12px;
@@ -143,19 +160,7 @@ a {
 
   color: #212121;
 }
-.modal-label {
-  display: flex;
-  flex-direction: column;
-  margin: 10px auto;
-  width: 448px;
 
-  font-size: 12px;
-  line-height: 1.17;
-
-  letter-spacing: 0.01em;
-
-  color: #757575;
-}
 .modal-areatext::placeholder {
   font-size: 12px;
   line-height: 1.17;
@@ -172,6 +177,9 @@ a {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
+}
+.modal-form {
+  padding: 40px;
 }
 .modal {
   position: absolute;
