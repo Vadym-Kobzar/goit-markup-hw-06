@@ -100,12 +100,12 @@ a {
 .form-btn:hover {
   background: #188ce8;
 }
-.modal-label:focus {
+.modal-label:focus-within {
   border: 1px solid var(--accentColour);
   color: var(--accentColour);
 }
-.modal-label:focus .modal-input {
-  border: none;
+.modal-label:focus-within .modal-input {
+  border: transparent;
 }
 .modal-input {
   display: inline-block;
@@ -118,7 +118,9 @@ a {
 .input-wrap {
   position: relative;
 }
-
+.input-icon:focus-within {
+  fill: var(--accentColour);
+}
 .input-icon {
   position: absolute;
   left: 0;
