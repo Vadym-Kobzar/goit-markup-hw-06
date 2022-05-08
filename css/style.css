@@ -110,20 +110,18 @@ a {
   flex-direction: column;
   margin: 10px auto;
   width: 448px;
-
   font-size: 12px;
   line-height: 1.17;
-
   letter-spacing: 0.01em;
-
   color: #757575;
 }
-.modal-label:focus-within {
+.form-field:focus-within {
   border: 1px solid var(--accentColour);
   color: var(--accentColour);
 }
-.modal-label:focus-within .modal-input {
+.modal-label:focus .modal-label {
   border: transparent;
+  color: var(--accentColour);
 }
 .modal-input {
   display: inline-block;
@@ -136,13 +134,16 @@ a {
 .input-wrap {
   position: relative;
 }
-.input-icon:focus-within {
+.input-icon:focus {
   fill: var(--accentColour);
 }
 .input-icon {
   position: absolute;
   left: 0;
   top: 33%;
+}
+.input-icon:focus {
+  fill: var(--accentColour);
 }
 
 .checkbox-vector {
@@ -727,6 +728,9 @@ a {
   position: absolute;
   top: 13px;
   right: 28px;
+  fill: #fff;
+
+  background-color: tomato;
 }
 
 /*-------------portfolio----------*/
