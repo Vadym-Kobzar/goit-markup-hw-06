@@ -85,12 +85,15 @@ a {
   transform: scale(0);
 }
 .checkbox-relative {
-  margin-right: 8px;
 }
 
 .checkbox-vector {
   margin-right: 7px;
+  color: #188ce8;
 }
+.checkbox-vector:focus {
+}
+
 .label-checkbox {
   display: flex;
   justify-content: center;
@@ -153,7 +156,9 @@ a {
   position: relative;
   margin-top: 4px;
 }
-
+.modal-input:focus + .input-icon {
+  fill: var(--accentColour);
+}
 .input-icon {
   position: absolute;
   left: 12px;
