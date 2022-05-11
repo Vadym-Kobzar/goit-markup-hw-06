@@ -86,27 +86,29 @@ a {
 }
 .checkbox-relative:checked + .checkbox-vector {
   background-color: #188ce8;
-
+  background-image: url(../images/icons.svg/Vectora.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   fill: #188ce8;
 }
 
 .checkbox-vector {
-  position: relative;
   margin-right: 7px;
   width: 16px;
   height: 15px;
 }
-.label-checkbox::before {
+/*.label-checkbox::before {
   content: "";
-  position: absolute;
-  right: 87.5%;
+  
+  right: 87.1%;
   width: 11px;
   height: 8px;
   background-image: url(../images/icons.svg/Vectora.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
+}*/
 
 .label-checkbox {
   display: flex;
