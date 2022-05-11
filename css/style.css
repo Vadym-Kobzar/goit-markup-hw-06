@@ -92,16 +92,22 @@ a {
 
 .checkbox-vector {
   margin-right: 7px;
-}
-.checkbox-vector::before {
-  content: "";
-  width: 11px;
-  height: 8px;
-  background-image: url(../images/icons.svg/vectora.svg);
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/icons.svg/Vectora.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
+/*.checkbox-vector::before {
+  content: "";
+  width: 11px;
+  height: 8px;
+  background-image: url(../images/icons.svg/Vectora.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}*/
 
 .label-checkbox {
   display: flex;
