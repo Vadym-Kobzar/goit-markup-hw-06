@@ -84,14 +84,18 @@ a {
   pointer-events: none;
   transform: scale(0);
 }
-.checkbox-relative {
+.checkbox-relative:checked + .checkbox-vector {
+  background-color: #188ce8;
+  fill: #188ce8;
 }
 
 .checkbox-vector {
   margin-right: 7px;
-  color: #188ce8;
-}
-.checkbox-vector:focus {
+  background-image: url(../images/icons.svg/Vectora.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: transparent;
 }
 
 .label-checkbox {
@@ -210,9 +214,7 @@ a {
 
   color: #212121;
 }
-.modal-btn:hover {
-  fill: #f5f4fa;
-}
+
 .modal-btn {
   position: absolute;
   top: 8px;
@@ -223,6 +225,9 @@ a {
   border-radius: 50%;
   background-color: #ffffff;
   cursor: pointer;
+}
+.modal-btn:hover {
+  fill: #2196f3;
 }
 .btnposition {
   position: absolute;
@@ -650,6 +655,7 @@ a {
   margin-top: 20px;
   height: 50px;
   width: 358px;
+  outline: none;
 }
 
 .footer-logo {
@@ -743,7 +749,7 @@ a {
 
   width: 200px;
   height: 50px;
-  background-color: var(--accentColour);
+
   font-weight: 700;
 
   align-items: center;
@@ -754,6 +760,7 @@ a {
   color: #ffffff;
   border: none;
   cursor: pointer;
+  background-color: #2196f3;
 }
 .footer-email-icon {
   margin-left: 10px;
