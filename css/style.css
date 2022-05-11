@@ -86,16 +86,21 @@ a {
 }
 .checkbox-relative:checked + .checkbox-vector {
   background-color: #188ce8;
+
   fill: #188ce8;
 }
 
 .checkbox-vector {
   margin-right: 7px;
+}
+.checkbox-vector::before {
+  content: "";
+  width: 11px;
+  height: 8px;
   background-image: url(../images/icons.svg/Vectora.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  border: transparent;
 }
 
 .label-checkbox {
