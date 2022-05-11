@@ -91,12 +91,15 @@ a {
 }
 
 .checkbox-vector {
+  position: relative;
   margin-right: 7px;
   width: 16px;
   height: 15px;
 }
-.checkbox-vector::before {
+.label-checkbox::before {
   content: "";
+  position: absolute;
+  right: 87.5%;
   width: 11px;
   height: 8px;
   background-image: url(../images/icons.svg/Vectora.svg);
