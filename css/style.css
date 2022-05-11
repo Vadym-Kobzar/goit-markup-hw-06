@@ -175,9 +175,11 @@ a {
   position: relative;
   margin-top: 4px;
 }
+
 .modal-input:focus + .input-icon {
   fill: var(--accentColour);
 }
+
 .input-icon {
   position: absolute;
   left: 12px;
@@ -654,13 +656,10 @@ a {
   /*margin-left: 70px;*/
 }
 .footer-change {
-  margin-top: 0;
+  margin-top: 20px;
   /*justify-content: flex-start;*/
 }
 .footer-paragraph {
-  display: flex;
-  flex-direction: column;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -669,11 +668,16 @@ a {
 
   color: #ffffff;
 }
+
 .footer-placeholder {
   margin-top: 20px;
+  padding-left: 16px;
   height: 50px;
   width: 358px;
   outline: none;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-logo {
